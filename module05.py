@@ -1,4 +1,6 @@
 def printAverageScore(*s1):
+    #매개 변수의 개수가 정해지지 않았을때 *를 붙인다.
+
     print(type(s1))
     
     totalScore=0
@@ -15,4 +17,3 @@ printAverageScore(80,90,70)
 printAverageScore(80,90,70,100)
 printAverageScore(80,90,70,95,86)
 
-    
